@@ -1,6 +1,7 @@
 <?php
 
 use App\Http\Controllers\AppController;
+use App\Http\Controllers\Halaman;
 use Illuminate\Support\Facades\Route;
 
 Route::get('/', function () {
@@ -10,7 +11,10 @@ Route::get('/', function () {
 Route::get('administrator/dashboard', [AppController::class, "dashboard"]);
 
 Route::get('administrator/menu-utama/menuwebsite', [AppController::class, "menuwebsite"]);
+
 Route::get('administrator/menu-utama/halamanbaru', [AppController::class, "halamanbaru"]);
+Route::get("administrator/menu-utama/halamanbaru", [Halaman::class,"tampil"]);
+
 Route::get('administrator/menu-utama/identitaswebsite', [AppController::class, "identitaswebsite"]);
 
 Route::get('administrator/modul-banner/bannerhome', [AppController::class, "bannerhome"]);
@@ -38,3 +42,6 @@ Route::get('administrator/modul-video/video', [AppController::class, "video"]);
 Route::get('administrator/modul-web/backgroundwebsite', [AppController::class, "backgroundwebsite"]);
 Route::get('administrator/modul-web/logowebsite', [AppController::class, "logowebsite"]);
 Route::get('administrator/modul-web/templatewebsite', [AppController::class, "templatewebsite"]);
+
+
+

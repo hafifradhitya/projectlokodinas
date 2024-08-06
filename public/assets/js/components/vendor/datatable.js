@@ -10,6 +10,14 @@ var DatatableBasic = (function() {
 
 	var $dtBasic = $('#datatable-basic');
 
+    // $(document).ready(function() {
+    //     $('#datatable-basic').DataTable({
+    //         "lengthMenu": [5, 10, 25, 50], // Menentukan jumlah entri yang ditampilkan
+    //         "pageLength": 10, // Jumlah entri default yang ditampilkan
+    //         "dom": '<"row"<"col-sm-12 col-md-6"l><"col-sm-12 col-md-6"f>>t<"row"<"col-sm-12 col-md-5"i><"col-sm-12 col-md-7"p>>'
+    //     });
+    // });
+
 
 	// Methods
 

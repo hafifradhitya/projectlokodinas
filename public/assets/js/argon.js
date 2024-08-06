@@ -1553,6 +1553,10 @@ var DatatableBasic = (function() {
         }
     });
 
+        // ... existing code ...
+
+    // ... existing code ...
+
 
 	// Methods
 
