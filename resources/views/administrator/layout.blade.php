@@ -4,7 +4,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <title>lokodinas</title>
+    <title>Welcome Administrator</title>
     <link rel="icon" href="{{ asset('images/favpertmin.png')}}" type="image/x-icon">
     <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Open+Sans:300,400,600,700">
     <link rel="stylesheet" href="{{ url('assets/vendor/nucleo/css/nucleo.css') }}" type="text/css">
@@ -17,7 +17,7 @@
         <div class="scrollbar-inner">
           <!-- Brand -->
           <div class="sidenav-header d-flex align-items-center">
-            <a class="navbar-brand" href="../../pages/dashboards/dashboard.html">
+            <a class="navbar-brand" href="{{ url('administrator/dashboard')}}">
               <img src="{{ url('assets/img/brand/blue.png') }}" class="navbar-brand-img" alt="...">
             </a>
             <div class="ml-auto">

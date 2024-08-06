@@ -16,6 +16,7 @@ Route::get('administrator/menu-utama/halamanbaru', [AppController::class, "halam
 Route::get("administrator/menu-utama/halamanbaru", [Halaman::class,"tampil"]);
 
 Route::get('administrator/menu-utama/identitaswebsite', [AppController::class, "identitaswebsite"]);
+Route::get('administrator/menu-utama/identitaswebsite', [Halaman::class, "show"]);
 
 Route::get('administrator/modul-banner/bannerhome', [AppController::class, "bannerhome"]);
 Route::get('administrator/modul-banner/bannerslider', [AppController::class, "bannerslider"]);
